@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-blue-600 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="/" class="text-white text-2xl">My Blog</a>
+            <div>
+                <a href="/about" class="text-white mx-2">About</a>
+                <a href="/contact" class="text-white mx-2">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Section -->
+    <div class="container mx-auto px-4 py-8">
+        <h1 class="text-3xl font-bold text-center mb-8">Welcome to My Blog</h1>
+
+        <!-- Blog Post List -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Blog Post 1 -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-xl font-semibold mb-4">Blog Post Title 1</h2>
+                <p class="text-gray-600 mb-4">This is a short summary of the first blog post. It gives readers a sneak peek into the content...</p>
+                <a href="#" class="text-blue-600 hover:text-blue-800">Read More</a>
+            </div>
+
+            <!-- Blog Post 2 -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-xl font-semibold mb-4">Blog Post Title 2</h2>
+                <p class="text-gray-600 mb-4">This is a short summary of the second blog post. It explains what the post is about and entices readers...</p>
+                <a href="#" class="text-blue-600 hover:text-blue-800">Read More</a>
+            </div>
+
+            <!-- Blog Post 3 -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-xl font-semibold mb-4">Blog Post Title 3</h2>
+                <p class="text-gray-600 mb-4">A brief introduction to the third blog post. The summary provides a glimpse of the main topic covered...</p>
+                <a href="#" class="text-blue-600 hover:text-blue-800">Read More</a>
+            </div>
+
+            <!-- Blog Post 4 -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-xl font-semibold mb-4">Blog Post Title 4</h2>
+                <p class="text-gray-600 mb-4">Here's the summary of the fourth blog post. It gives enough information to hook the reader into clicking...</p>
+                <a href="#" class="text-blue-600 hover:text-blue-800">Read More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-4 text-center">
+        <p>&copy; 2024 My Blog. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
